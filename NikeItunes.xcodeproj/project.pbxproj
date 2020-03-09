@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88F4DBBB2412E57D007EE378 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F4DBBA2412E57D007EE378 /* AppDelegate.swift */; };
+		88F4DBBD2412E57D007EE378 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F4DBBC2412E57D007EE378 /* SceneDelegate.swift */; };
+		88F4DBC42412E580007EE378 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88F4DBC32412E580007EE378 /* Assets.xcassets */; };
+		88F4DBC72412E580007EE378 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F4DBC52412E580007EE378 /* LaunchScreen.storyboard */; };
+		88F4DBD22412E581007EE378 /* NikeItunesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F4DBD12412E581007EE378 /* NikeItunesTests.swift */; };
+		88F4DBDE2412E5E7007EE378 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F4DBDD2412E5E7007EE378 /* UIView+Ext.swift */; };
+		88F4DBE52412E95A007EE378 /* MusicListsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F4DBE42412E95A007EE378 /* MusicListsVC.swift */; };
+		88F4DBE72412E96D007EE378 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F4DBE62412E96D007EE378 /* DetailVC.swift */; };
+		88F4DBE92412E981007EE378 /* APICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F4DBE82412E981007EE378 /* APICall.swift */; };
+		88F4DBEB2412EADD007EE378 /* MusicCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F4DBEA2412EADD007EE378 /* MusicCellView.swift */; };
+		88F4DBED2412EBA7007EE378 /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F4DBEC2412EBA7007EE378 /* ResponseModel.swift */; };
+		88F4DBEF2412EBC1007EE378 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F4DBEE2412EBC1007EE378 /* Music.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88F4DBCE2412E581007EE378 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88F4DBAF2412E57D007EE378 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88F4DBB62412E57D007EE378;
+			remoteInfo = NikeItunes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88F4DBB72412E57D007EE378 /* NikeItunes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NikeItunes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88F4DBBA2412E57D007EE378 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88F4DBBC2412E57D007EE378 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		88F4DBC32412E580007EE378 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88F4DBC62412E580007EE378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88F4DBC82412E580007EE378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88F4DBCD2412E581007EE378 /* NikeItunesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NikeItunesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88F4DBD12412E581007EE378 /* NikeItunesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikeItunesTests.swift; sourceTree = "<group>"; };
+		88F4DBD32412E581007EE378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88F4DBDD2412E5E7007EE378 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		88F4DBE42412E95A007EE378 /* MusicListsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicListsVC.swift; sourceTree = "<group>"; };
+		88F4DBE62412E96D007EE378 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		88F4DBE82412E981007EE378 /* APICall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICall.swift; sourceTree = "<group>"; };
+		88F4DBEA2412EADD007EE378 /* MusicCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCellView.swift; sourceTree = "<group>"; };
+		88F4DBEC2412EBA7007EE378 /* ResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
+		88F4DBEE2412EBC1007EE378 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88F4DBB42412E57D007EE378 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88F4DBCA2412E581007EE378 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88F4DBAE2412E57D007EE378 = {
+			isa = PBXGroup;
+			children = (
+				88F4DBB92412E57D007EE378 /* NikeItunes */,
+				88F4DBD02412E581007EE378 /* NikeItunesTests */,
+				88F4DBB82412E57D007EE378 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88F4DBB82412E57D007EE378 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88F4DBB72412E57D007EE378 /* NikeItunes.app */,
+				88F4DBCD2412E581007EE378 /* NikeItunesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88F4DBB92412E57D007EE378 /* NikeItunes */ = {
+			isa = PBXGroup;
+			children = (
+				88F4DBDC2412E5CD007EE378 /* Extensions-Utilities */,
+				88F4DBE12412E91C007EE378 /* Service */,
+				88F4DBE22412E925007EE378 /* Controllers */,
+				88F4DBE02412E90B007EE378 /* Views */,
+				88F4DBE32412E936007EE378 /* Models */,
+				88F4DBDF2412E615007EE378 /* Supporting */,
+				88F4DBC82412E580007EE378 /* Info.plist */,
+			);
+			path = NikeItunes;
+			sourceTree = "<group>";
+		};
+		88F4DBD02412E581007EE378 /* NikeItunesTests */ = {
+			isa = PBXGroup;
+			children = (
+				88F4DBD12412E581007EE378 /* NikeItunesTests.swift */,
+				88F4DBD32412E581007EE378 /* Info.plist */,
+			);
+			path = NikeItunesTests;
+			sourceTree = "<group>";
+		};
+		88F4DBDC2412E5CD007EE378 /* Extensions-Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				88F4DBDD2412E5E7007EE378 /* UIView+Ext.swift */,
+			);
+			path = "Extensions-Utilities";
+			sourceTree = "<group>";
+		};
+		88F4DBDF2412E615007EE378 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				88F4DBBC2412E57D007EE378 /* SceneDelegate.swift */,
+				88F4DBBA2412E57D007EE378 /* AppDelegate.swift */,
+				88F4DBC32412E580007EE378 /* Assets.xcassets */,
+				88F4DBC52412E580007EE378 /* LaunchScreen.storyboard */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		88F4DBE02412E90B007EE378 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				88F4DBEA2412EADD007EE378 /* MusicCellView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		88F4DBE12412E91C007EE378 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				88F4DBE82412E981007EE378 /* APICall.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		88F4DBE22412E925007EE378 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				88F4DBE42412E95A007EE378 /* MusicListsVC.swift */,
+				88F4DBE62412E96D007EE378 /* DetailVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		88F4DBE32412E936007EE378 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				88F4DBEC2412EBA7007EE378 /* ResponseModel.swift */,
+				88F4DBEE2412EBC1007EE378 /* Music.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88F4DBB62412E57D007EE378 /* NikeItunes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88F4DBD62412E581007EE378 /* Build configuration list for PBXNativeTarget "NikeItunes" */;
+			buildPhases = (
+				88F4DBB32412E57D007EE378 /* Sources */,
+				88F4DBB42412E57D007EE378 /* Frameworks */,
+				88F4DBB52412E57D007EE378 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NikeItunes;
+			productName = NikeItunes;
+			productReference = 88F4DBB72412E57D007EE378 /* NikeItunes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88F4DBCC2412E581007EE378 /* NikeItunesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88F4DBD92412E581007EE378 /* Build configuration list for PBXNativeTarget "NikeItunesTests" */;
+			buildPhases = (
+				88F4DBC92412E581007EE378 /* Sources */,
+				88F4DBCA2412E581007EE378 /* Frameworks */,
+				88F4DBCB2412E581007EE378 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88F4DBCF2412E581007EE378 /* PBXTargetDependency */,
+			);
+			name = NikeItunesTests;
+			productName = NikeItunesTests;
+			productReference = 88F4DBCD2412E581007EE378 /* NikeItunesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88F4DBAF2412E57D007EE378 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "hui liu";
+				TargetAttributes = {
+					88F4DBB62412E57D007EE378 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					88F4DBCC2412E581007EE378 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 88F4DBB62412E57D007EE378;
+					};
+				};
+			};
+			buildConfigurationList = 88F4DBB22412E57D007EE378 /* Build configuration list for PBXProject "NikeItunes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88F4DBAE2412E57D007EE378;
+			productRefGroup = 88F4DBB82412E57D007EE378 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88F4DBB62412E57D007EE378 /* NikeItunes */,
+				88F4DBCC2412E581007EE378 /* NikeItunesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88F4DBB52412E57D007EE378 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88F4DBC72412E580007EE378 /* LaunchScreen.storyboard in Resources */,
+				88F4DBC42412E580007EE378 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88F4DBCB2412E581007EE378 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88F4DBB32412E57D007EE378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88F4DBDE2412E5E7007EE378 /* UIView+Ext.swift in Sources */,
+				88F4DBBB2412E57D007EE378 /* AppDelegate.swift in Sources */,
+				88F4DBE92412E981007EE378 /* APICall.swift in Sources */,
+				88F4DBEB2412EADD007EE378 /* MusicCellView.swift in Sources */,
+				88F4DBE72412E96D007EE378 /* DetailVC.swift in Sources */,
+				88F4DBEF2412EBC1007EE378 /* Music.swift in Sources */,
+				88F4DBE52412E95A007EE378 /* MusicListsVC.swift in Sources */,
+				88F4DBED2412EBA7007EE378 /* ResponseModel.swift in Sources */,
+				88F4DBBD2412E57D007EE378 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88F4DBC92412E581007EE378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88F4DBD22412E581007EE378 /* NikeItunesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88F4DBCF2412E581007EE378 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88F4DBB62412E57D007EE378 /* NikeItunes */;
+			targetProxy = 88F4DBCE2412E581007EE378 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88F4DBC52412E580007EE378 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88F4DBC62412E580007EE378 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88F4DBD42412E581007EE378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		88F4DBD52412E581007EE378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88F4DBD72412E581007EE378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2396M6UZQT;
+				INFOPLIST_FILE = NikeItunes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ella.NikeItunes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88F4DBD82412E581007EE378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2396M6UZQT;
+				INFOPLIST_FILE = NikeItunes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ella.NikeItunes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		88F4DBDA2412E581007EE378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2396M6UZQT;
+				INFOPLIST_FILE = NikeItunesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ella.NikeItunesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NikeItunes.app/NikeItunes";
+			};
+			name = Debug;
+		};
+		88F4DBDB2412E581007EE378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2396M6UZQT;
+				INFOPLIST_FILE = NikeItunesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ella.NikeItunesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NikeItunes.app/NikeItunes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88F4DBB22412E57D007EE378 /* Build configuration list for PBXProject "NikeItunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88F4DBD42412E581007EE378 /* Debug */,
+				88F4DBD52412E581007EE378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88F4DBD62412E581007EE378 /* Build configuration list for PBXNativeTarget "NikeItunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88F4DBD72412E581007EE378 /* Debug */,
+				88F4DBD82412E581007EE378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88F4DBD92412E581007EE378 /* Build configuration list for PBXNativeTarget "NikeItunesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88F4DBDA2412E581007EE378 /* Debug */,
+				88F4DBDB2412E581007EE378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88F4DBAF2412E57D007EE378 /* Project object */;
+}
