@@ -90,7 +90,7 @@ class DetailVC: UIViewController {
         return button
     }()
     
-    @objc func buttonAction(sender: UIButton!) {
+    @objc func buttonAction(sender: UIButton?) {
         guard let music = music else { return }
         if let url = URL(string: music.url) {
             UIApplication.shared.open(url)

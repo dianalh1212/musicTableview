@@ -61,7 +61,9 @@ extension MusicListsVC: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath) as! MusicCellView
+        
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath) as? MusicCellView else { return UITableViewCell() }
+        
         let curr = responseData?.feed.results[indexPath.row]
         cell.music = curr
         
